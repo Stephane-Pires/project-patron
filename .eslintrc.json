@@ -1,0 +1,27 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "prettier",
+        "plugin:prettier/recommended",
+        "eslint-config-prettier"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        // enable additional rules
+        "no-cond-assign": [
+            "error",
+            "always"
+        ],
+        // disable rules from base configurations
+        "no-console": "off",
+        "prefer-const": "error"
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "plugins": [
+        "prettier"
+    ]
+}
