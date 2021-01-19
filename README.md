@@ -6,3 +6,4 @@ Projet contenant une configuration de divers outils pour démarrer un projet
 -   Eslint
 -   Prettier
 -   Lint-staged
+-   Typescript
