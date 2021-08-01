@@ -2,5 +2,12 @@
     "trailingComma": "es5",
     "tabWidth": 4,
     "semi": false,
-    "singleQuote": true
-  }
+    "singleQuote": true,
+    "importOrder": [
+        "./test-import-one/(.*)$",
+        "./test-import-two/(.*)$",
+        "^@ui/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true
+}
