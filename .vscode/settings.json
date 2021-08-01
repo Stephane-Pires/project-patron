@@ -6,6 +6,7 @@
         "eslint",
         "typecript",
         "lint-staged",
-        "tmp"
+        "tmp",
+        "snippets"
     ]
 }
