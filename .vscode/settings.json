@@ -5,6 +5,7 @@
         "husky",
         "eslint",
         "typecript",
-        "lint-staged"
+        "lint-staged",
+        "tmp"
     ]
 }
