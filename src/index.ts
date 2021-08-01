@@ -1,8 +1,11 @@
-// Test import one
-import { CONST } from './test-import-one/test-import'
+// Constants
+import { CONST } from './constants/fake-constant'
 
-// Test import two
-import { TEST } from './test-import-two/test-import-2'
+// Utils
+import { UTILS } from './utils/fake-utils'
+
+// Components
+import { COMPONENT } from './components/fake-component'
 
 console.log('Hello World!')
 
@@ -16,5 +19,6 @@ function multiplyByTwo(number: number) {
 multiplyByTwo(a)
 multiplyByTwo(b)
 
+console.log('UTILS', UTILS)
+console.log('COMPONENT', COMPONENT)
 console.log('CONST', CONST)
-console.log('TEST', TEST)

@@ -4,8 +4,9 @@
     "semi": false,
     "singleQuote": true,
     "importOrder": [
-        "./test-import-one/(.*)$",
-        "./test-import-two/(.*)$",
+        "./constants/(.*)$",
+        "./utils/(.*)$",
+        "./components/(.*)$",
         "^@ui/(.*)$",
         "^[./]"
     ],
