@@ -18,7 +18,15 @@
     "import sort": {
         "scope": "javascript,typescript",
         "prefix": "import",
-        "body": ["// Components", "// Constants", "// Utils"],
-        "description": "get commentary for imports"
+        "body": [
+            "// Components",
+            "// Constants",
+            "// Utils",
+            "// Hooks",
+            "// Selectors",
+            "// Actions",
+            "// Styles"
+        ],
+        "description": "get commentary for category imports"
     }
 }
