@@ -8,6 +8,7 @@
         "lint-staged",
         "tmp",
         "snippets",
-        "README"
+        "README",
+        "exemples"
     ]
 }
