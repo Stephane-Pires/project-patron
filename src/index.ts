@@ -1,8 +1,10 @@
 // Constants
-import { a, b } from './constants/fake-constant'
+import { a } from './constants/fake-constant-a'
+import { b } from './constants/fake-constant-b'
 
 // Utils
-import { multiplyByTwo } from './utils/fake-utils'
+import { multiplyByThree } from './utils/fake-utils-by-three'
+import { multiplyByTwo } from './utils/fake-utils-by-two'
 
 // Components
 import { COMPONENT } from './components/fake-component'
@@ -10,6 +12,6 @@ import { COMPONENT } from './components/fake-component'
 console.log('Hello World!')
 
 multiplyByTwo(a)
-multiplyByTwo(b)
+multiplyByThree(b)
 
 console.log('COMPONENT', COMPONENT)
