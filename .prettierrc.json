@@ -10,5 +10,6 @@
         "^@ui/(.*)$",
         "^[./]"
     ],
-    "importOrderSeparation": true
+    "importOrderSeparation": true,
+    "endOfLine": "auto"
 }
