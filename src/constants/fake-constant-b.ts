@@ -1,1 +1,1 @@
-export const b = 4
+export const four = 4
