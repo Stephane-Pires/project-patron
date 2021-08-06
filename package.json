@@ -35,8 +35,8 @@
         }
     },
     "lint-staged": {
-        "src/**": [
-            "eslint src"
+        "*": [
+            "npm run lint:fix"
         ]
     },
     "volta": {
